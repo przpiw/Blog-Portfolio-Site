@@ -4,10 +4,10 @@ const Bio = () => {
   return (
     <div className='mt-14 lg:mt-32 font-light w-full text-gray-600 '>
       <h1 className='text-4xl sm:text-5xl lg:text-6xl mb-2 false text-black'>
-        Hello, I'm Damian
+        Hello, I&apos;m Damian
       </h1>
       <p className='text-2xl sm:text-3xl lg:text-4xl w-11/12 sm:w-5/6 md:w-11/12 lg:w-4/5 xl:w-3/5'>
-        I'm a software engineering graduate living in South Australia.
+        I&apos;m a software engineering graduate living in South Australia.
       </p>
       <Socials />
       <section className='text-base sm:text-lg font-light leading-relaxed lg:w-4/5 2xl:w-2/3 text-gray-600  mt-24 md:mt-32 xl:mt-44'>
@@ -23,7 +23,7 @@ const Bio = () => {
         </p>
       </section>
       <section className='text-base sm:text-lg font-light leading-relaxed lg:w-4/5 2xl:w-2/3 text-gray-600  mt-20 pb-20'>
-        <Link href='/blog'>
+        <Link href='/blog' passHref>
           <h2 className='text-3xl md:text-3xl mb-4 text-black hover:text-blue-500'>
             Latest Articles
           </h2>
