@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useState } from 'react'
-import { items } from '../content/navbar'
 const Navbar = () => {
   const [toggle, setToggle] = useState(true)
   return (
@@ -21,13 +20,17 @@ const Navbar = () => {
             toggle ? 'hidden' : 'flex'
           }`}
         >
-          {items.map((item, index) => (
-            <Link key={index} href={`/${item.href}`}>
-              <a className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'>
-                {item.name}
-              </a>
-            </Link>
-          ))}
+          <Link href='/'>
+            <a className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'>
+              About
+            </a>
+          </Link>
+          <Link href='/Blog'>
+            <a className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'>
+              Blog
+            </a>
+          </Link>
+
           <a
             className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'
             href='mailto: przpiw@gmail.com'
