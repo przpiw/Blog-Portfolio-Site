@@ -4,7 +4,10 @@ import { items } from '../content/navbar'
 const Navbar = () => {
   const [toggle, setToggle] = useState(true)
   return (
-    <nav className='px-6 py-4 drop-shadow-sm  shadow-slate-700/10 ring-1 ring-gray-900/5'>
+    <nav
+      aria-label='banner'
+      className='px-6 py-4 drop-shadow-sm  shadow-slate-700/10 ring-1 ring-gray-900/5'
+    >
       <div className='container flex flex-col mx-auto md:flex-row md:items-center md:justify-between'>
         <a
           onClick={() => setToggle(!toggle)}
@@ -27,7 +30,7 @@ const Navbar = () => {
           ))}
           <a
             className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'
-            href='mailto: abc@example.com'
+            href='mailto: przpiw@gmail.com'
           >
             Contact
           </a>

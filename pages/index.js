@@ -4,7 +4,7 @@ import Meta from '../components/Meta'
 
 export default function Home() {
   return (
-    <div className='w-full'>
+    <main className='w-full'>
       <Meta
         title='Damian Piwowarczyk | Personal Portfolio'
         keywords='Fullstack-developer Engineer Graduate Adelaide'
@@ -14,6 +14,6 @@ export default function Home() {
           <Bio />
         </main>
       </Layout>
-    </div>
+    </main>
   )
 }

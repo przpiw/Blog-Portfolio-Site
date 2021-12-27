@@ -2,13 +2,13 @@ import Link from 'next/link'
 
 const BlogItem = ({ post, index }) => {
   return (
-    <Link key={index} href={`blog/${post.slug}`} passHref>
+    <Link key={index} href={`/blog/${post.slug}`} passHref>
       <div key={post.slug} className='mt-6'>
         <div className='max-w-100 px-10 py-4 mx-auto bg-white hover:bg-gray-100 rounded-lg shadow-md'>
-          <span className='text-xs text-gray-400'>{post.date}</span>
+          <span className='text-xs text-gray-500'>{post.date}</span>
           <div className='mt-2'>
             <a
-              href='#'
+              href={`/blog/${post.slug}`}
               className='  md:text-xl text-base font-bold text-gray-700 hover:underline'
             >
               {post.title}

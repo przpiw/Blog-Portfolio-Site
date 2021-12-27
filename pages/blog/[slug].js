@@ -28,9 +28,9 @@ export default function Post({ post }) {
                   height={400}
                   alt='cover-image'
                 />
-                <div className='flex flex-col text-sm text-gray-500'>
-                  <div className='pb-1'>{post.author}</div>
-                  <div className='text-left text-xs text-gray-300'>
+                <div className='flex flex-col text-sm text-gray-600'>
+                  <div className='pb-1'>Published by {post.author}</div>
+                  <div className='text-left text-xs text-gray-500'>
                     Posted on {post.date}
                   </div>
                 </div>
