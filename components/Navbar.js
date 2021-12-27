@@ -25,7 +25,7 @@ const Navbar = () => {
               About
             </a>
           </Link>
-          <Link href='/Blog'>
+          <Link href='/blog'>
             <a className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'>
               Blog
             </a>
