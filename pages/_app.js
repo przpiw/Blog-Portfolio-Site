@@ -1,10 +1,15 @@
 import '../styles/globals.css'
-import TagManager from 'react-gtm-module'
+import Router from 'next/router'
 import { useEffect } from 'react'
+import { GTMPageView } from '../utils/gmt'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({ gtmId: process.env.NEXT_PUBLIC_GTM_ID })
+    const handleRouteChange = (url) => GTMPageView(url)
+    Router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      Router.events.off('routeChangeComplete', handleRouteChange)
+    }
   }, [])
   return <Component {...pageProps} />
 }
