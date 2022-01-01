@@ -3,7 +3,7 @@ title: 'Build Authentication with NextJS and NextAuth v4'
 excerpt: 'This article describe process of creating reusable nextjs and nextauth authentication with credential provider. Created app with let you bring your own database for credential verification.'
 coverImage: '/assets/blog/cover/nextjs-nextauth.png'
 date: '31-12-2021'
-slug: 'Build-Authentication-with-NextJS and-NextAuth'
+slug: 'Build-Authentication-with-NextJS-and-NextAuth'
 author: 'Damian Piwowarczyk'
 keywords: 'nextjs, nextAuth v4, building authentication, web development'
 ---
