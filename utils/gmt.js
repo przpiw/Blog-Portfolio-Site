@@ -3,7 +3,6 @@ export const GTMPageView = (url) => {
     event: 'pageview',
     page: url,
   }
-  //@ts-ignore
   window && window.dataLayer && window.dataLayer.push(pageEvent)
   return pageEvent
 }

@@ -16,6 +16,10 @@ class MyDocument extends Document {
             }}
           />
           {/* End Google Tag Manager */}
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
           {/* Google Tag Manager (noscript) */}
           <noscript
             dangerouslySetInnerHTML={{
@@ -23,10 +27,6 @@ class MyDocument extends Document {
             }}
           />
           {/* End Google Tag Manager (noscript) */}
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
         </body>
       </Html>
     )
