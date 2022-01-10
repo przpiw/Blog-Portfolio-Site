@@ -2,14 +2,17 @@ import Layout from '../components/Layout'
 import BlogItem from '../components/BlogItem'
 import { getAllPosts } from '../lib/api'
 import Meta from '../components/Meta'
+import { useRouter } from 'next/router'
+
 export default function Blog({ allPosts }) {
   return (
     <>
       <Layout>
         <Meta
-          title='Latest articles'
+          title='Damian Piwowarczyk Latest Blog articles'
           description='Full-stack developer blog'
           keywords='Javascript React NextJS Articles'
+          canonical={process.env.NEXT_PUBLIC_SITE_URL + useRouter().pathname}
         />
         <main className='flex flex-row justify-center h-full mb-18'>
           <section className=' w-1/6 md:block hidden mr-16 ' />

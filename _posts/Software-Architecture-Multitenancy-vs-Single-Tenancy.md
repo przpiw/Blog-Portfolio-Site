@@ -6,6 +6,7 @@ date: '21-12-2021'
 slug: 'Software-Architecture-Multitenancy-vs-Single-Tenancy'
 author: 'Damian Piwowarczyk'
 keywords: 'Multitenancy Software Architecture'
+canonical: 'https://damiandev.com/blog/Software-Architecture-Multitenancy-vs-Single-Tenancy'
 ---
 
 ## What is multi-tenancy?

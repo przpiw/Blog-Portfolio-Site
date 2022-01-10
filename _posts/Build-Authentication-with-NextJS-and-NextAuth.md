@@ -6,6 +6,7 @@ date: '31-12-2021'
 slug: 'Build-Authentication-with-NextJS-and-NextAuth'
 author: 'Damian Piwowarczyk'
 keywords: 'nextjs, nextAuth v4, building authentication, web development'
+canonical: 'https://damiandev.com/blog/Build-Authentication-with-NextJS-and-NextAuth'
 ---
 
 Today we are going to build authentication example app using Nextjs and NextAuth. We will use a custom form and credential provider which will let us bring in effortlessly custom DB or endpoint for credential verification in our project. A Good boilerplate if you need authentication functionality with less code in your project.

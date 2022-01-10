@@ -6,6 +6,7 @@ date: '28-12-2021'
 slug: 'Data-Visualization-with-React-and-Nivo'
 author: 'Damian Piwowarczyk'
 keywords: 'Javascript, React, web development, Tutorial'
+canonical: 'https://dev.to/przpiw/build-data-visualisation-components-with-react-and-nivo-1d7e'
 ---
 
 Today I will walk you though how you can build interactive charts on your website with Nivo & React.

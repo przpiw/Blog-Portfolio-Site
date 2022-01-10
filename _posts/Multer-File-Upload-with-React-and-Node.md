@@ -6,6 +6,7 @@ date: '02-09-2021'
 slug: 'Multer-File-Upload-with-React-and-Node'
 author: 'Damian Piwowarczyk'
 keywords: 'Fileupload React Multer Tutorial'
+canonical: 'https://damiandev.com/blog/Multer-File-Upload-with-React-and-Node'
 ---
 
 Today I will briefly describe how to upload images/files from React front-end to NodeJS back-end using express and multer. I will omit all validations to keep it short & simple.

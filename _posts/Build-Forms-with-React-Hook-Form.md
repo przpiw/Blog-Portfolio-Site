@@ -6,6 +6,7 @@ date: '14-12-2021'
 slug: 'Build-Forms-with-React-Hook-Form'
 author: 'Damian Piwowarczyk'
 keywords: 'React Form-Hook Javascript Tutorial'
+canonical: 'https://damiandev.com/blog/Build-Forms-with-React-Hook-Form'
 ---
 
 Building reusable forms can be sometimes challenging. In this tutorial, I will demonstrate how we can build reusable form components with the implementation of react useForHook.

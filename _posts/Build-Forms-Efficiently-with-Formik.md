@@ -6,6 +6,7 @@ date: '17-12-2021'
 slug: 'Build-Forms-Efficiently-with-Formik'
 author: 'Damian Piwowarczyk'
 keywords: 'React Formik Javascript Tutorial'
+canonical: 'https://damiandev.com/blog/Build-Forms-Efficiently-with-Formik'
 ---
 
 ### Intro

@@ -6,6 +6,7 @@ date: '23-12-2021'
 slug: 'Learn-How-to-Build-Multitenant-Application-with-Mongo-and-Node'
 author: 'Damian Piwowarczyk'
 keywords: 'Multitenancy Nodejs MongoDB Tutorial'
+canonical: 'https://damiandev.com/blog/Learn-How-to-Build-Multitenant-Application-with-Mongo-and-Node'
 ---
 
 In my last post, I compared single-tenancy vs multi-tenancy software architecture. Today we will look at how we can build a simple application that will let us handle multiple tenant. We will go with clean nodejs, mongodb, and mongoose for object modeling.

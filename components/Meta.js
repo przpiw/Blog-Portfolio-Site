@@ -1,5 +1,5 @@
 import Head from 'next/head'
-const Meta = ({ title, keywords, description }) => {
+const Meta = ({ title, keywords, description, canonical }) => {
   return (
     <Head>
       <title>{title}</title>
@@ -10,6 +10,8 @@ const Meta = ({ title, keywords, description }) => {
       <meta name key='charset' charset='utf-8' />
       <meta name='geo.placename' key='geo.placename' CONTENT='Adelaide' />
       <meta name='geo.region' key='geo.region' CONTENT='Australia'></meta>
+      <meta name='twitter:title' content={title}></meta>
+      <link rel='canonical' href={canonical} key='canonical' />
     </Head>
   )
 }

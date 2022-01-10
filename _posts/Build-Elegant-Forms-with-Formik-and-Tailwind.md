@@ -6,6 +6,7 @@ date: '20-12-2021'
 slug: 'Build-Elegant-Forms-with-Formik-and-Tailwind'
 author: 'Damian Piwowarczyk'
 keywords: 'React Formik Tailwind Tutorial'
+canonical: 'https://damiandev.com/blog/Build-Elegant-Forms-with-Formik-and-Tailwind'
 ---
 
 In my last post, I went through building custom components with formik. Today we will build something more practical responsive login/registration page that uses formik components and tailwind styling. In the end, we will add yup validation schema that will enable effortless error handling. Hopefully, by the end, you will see how powerful the combination of these tools can be when building reusable pages/forms.
