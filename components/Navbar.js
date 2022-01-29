@@ -30,6 +30,11 @@ const Navbar = () => {
               Blog
             </a>
           </Link>
+          <Link href='/portfolio'>
+            <a className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'>
+              Portfolio
+            </a>
+          </Link>
 
           <a
             className='my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0'
